@@ -219,7 +219,7 @@ async def edit_or_send_as_file(
     file_name: str = "result",
     parse_mode="md",
 ):
-     """Kirim Sebagai File Jika Len Teks Melebihi Batas Tg Lain Edit Pesan"""
+    """Kirim Sebagai File Jika Len Teks Melebihi Batas Tg Lain Edit Pesan"""
     if not text:
         await message.edit("`ada sesuatu selain teks, dibatalkan...`")
         return
