@@ -23,7 +23,7 @@ API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 BOT_USERNAME = getenv("BOT_USERNAME", "kimmusikbot")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "kimasisten")
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "crazy_people345")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "inposantuy")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "curhatanmassa")
 # isi dengan username kamu tanpa simbol @
 OWNER_NAME = getenv("OWNER_NAME", "warga_pati")
