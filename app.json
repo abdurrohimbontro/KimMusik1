@@ -84,7 +84,7 @@
         "GROUP_SUPPORT": {
             "description": "if you have group fill the group username here without @",
             "required": false,
-            "value": "crazy_people"
+            "value": "inposantuy"
         }
     },
     "buildpacks": [
