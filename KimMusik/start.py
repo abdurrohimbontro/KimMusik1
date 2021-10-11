@@ -1,4 +1,5 @@
 import os
+import asyncio
 from time import time
 from sys import version_info
 from datetime import datetime
@@ -169,11 +170,12 @@ async def ping_pong(client: Client, message: Message):
     await m_reply.edit_text("💗")
     await m_reply.edit_text("💖")
     await m_reply.edit_text("💘")
-    time(3)
+    await asyncio.sleep(3)
     await m_reply.edit_text("🍂 ᏦᎥᎷ.ᎥᎴ 🍂")
-    time(3)
+    await asyncio.sleep(3)
     await m_reply.edit_text("💝")
-    delta_ping = time(3) - start
+    await asyncio.sleep(3)
+    delta_ping = time() - start
     await m_reply.edit_text("🏓 `pong`\n" f"🇲🇨 ping `{delta_ping * 1000:.3f} ms`🇮🇩")
 
 
