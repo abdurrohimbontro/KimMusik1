@@ -110,7 +110,7 @@ async def start(client: Client, message: Message):
             ]
     )
     
-    alive = f"**Assalamualaikum,hai {message.from_user.mention}, perkenalkan saya adalah {BOT_NAME}**\n\n🥁 Bot bekerja normal\n💺 My Master: [{ALIVE_NAME}](https://t.me/{OWNER})\n🧩 Versi Bot : `v{__version__}`\n💱 Versi Pyrogram : `{__pyro_version__}`\n🐲 Versi Python : `{__python_version__}`\n🕒 waktu aktif : `{uptime}`\n\n**Terima kasih telah Menambahkan saya di sini, untuk memutar musik di suara Grup Anda ❤️\n by [𝓚𝓲𝓶.𝓲𝓭](https://t.me.warga_pati) **"
+    alive = f"**Assalamualaikum,hai {message.from_user.mention}, perkenalkan saya adalah {BOT_NAME}**\n\n🥁 Bot bekerja normal\n💺 My Master: [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n🧩 Versi Bot : `v{__version__}`\n💱 Versi Pyrogram : `{__pyro_version__}`\n🐲 Versi Python : `{__python_version__}`\n🕒 waktu aktif : `{uptime}`\n\n**Terima kasih telah Menambahkan saya di sini, untuk memutar musik di suara Grup Anda ❤️\n by [𝓚𝓲𝓶.𝓲𝓭](https://t.me.warga_pati) **"
     await message.reply_photo(
         photo=f"{ALIVE_IMG}",
         caption=alive,
