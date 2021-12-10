@@ -80,7 +80,7 @@ By [𝓚𝓲𝓶.𝓲𝓭](https://t.me.warga_pati)
                 ],
                 [
                     InlineKeyboardButton(
-                        "🧰 Source Code", url="https://github.com/abdurrohimbontro/KimMusik"
+                        "🧰 Penghuni surga ", url="https://t.me/rakyat pati"
                     )
                 ],
             ]
@@ -176,7 +176,7 @@ async def ping_pong(client: Client, message: Message):
     await m_reply.edit_text("💝")
     await asyncio.sleep(3)
     delta_ping = time() - start
-    await m_reply.edit_text("🏓 `pong`\n" f"🇲🇨 ping `{delta_ping * 1000:.3f} ms`🇮🇩")
+    await m_reply.edit_text("🏓 `pong`\n" f"🇲🇨 ping `{delta_ping * 1000:.3f} ms`🇮🇩\n 𝓚𝓲𝓶.id")
 
 
 @Client.on_message(command(["uptime", f"uptime@{BOT_USERNAME}"]) & ~filters.edited)
