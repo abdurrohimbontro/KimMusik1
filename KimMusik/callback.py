@@ -18,7 +18,7 @@ from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMa
 async def cbstart(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""<b>✨ **Assalamualaikum ,Selamat datang di Bot kami, saya {query.message.from_user.mention} !** \n
-💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) memungkinkan Anda memutar musik di grup melalui obrolan suara Telegram baru**
+💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) memungkinkan Anda memutar musik di grup melalui obrolan suara Telegram **
 
 💡 **Cari tahu semua perintah Bot dan cara kerjanya dengan mengklik\n» 📚 tombol perintah!**
 
@@ -47,7 +47,7 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/Abdurrohimbontro/KimMusik"
+                        "💝 Pacar kamu ", url="https://t.me/rakyat_pati"
                     )
                 ],
             ]
