@@ -13,7 +13,7 @@ que = {}
 admins = {}
 SESSION_NAME = getenv("SESSION_NAME", "session")
 BOT_TOKEN = getenv("BOT_TOKEN")
-BOT_NAME = getenv("BOT_NAME", "KIM MUSIK BOT")
+BOT_NAME = getenv("BOT_NAME", "KiM Musik Bot")
 BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/be9f39a7ed4a1cac9c5b1.png")
 THUMB_IMG = getenv("THUMB_IMG", "https://telegra.ph/file/4a4321af3c0eca78f029c.png")
 AUD_IMG = getenv("AUD_IMG", "https://telegra.ph/file/be9f39a7ed4a1cac9c5b1.png")
@@ -21,12 +21,12 @@ QUE_IMG = getenv("QUE_IMG", "https://telegra.ph/file/4a4321af3c0eca78f029c.png")
 ALIVE_IMG = getenv("ALIVE_IMG", "https://telegra.ph/file/33ee00739e09710398ec1.png")
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
-BOT_USERNAME = getenv("BOT_USERNAME", "kimmusikbot")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "kimasisten")
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "inposantuy")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "curhatanmassa")
+BOT_USERNAME = getenv("BOT_USERNAME", "kimmusiknewbot")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "inpopedia")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "inpo_pedia")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "canelbothuhuy")
 # isi dengan username kamu tanpa simbol @
-OWNER_NAME = getenv("OWNER_NAME", "warga_pati")
+OWNER_NAME = getenv("OWNER_NAME", "rakyat_pati")
 # fill with your nickname
 ALIVE_NAME = getenv("ALIVE_NAME", "𝓚𝓲𝓶")
 # fill with your id as the owner of the bot
