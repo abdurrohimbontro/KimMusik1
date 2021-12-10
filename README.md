@@ -100,5 +100,4 @@ git branch -M main
 git push -u origin main
 ```
 
-# Grup & Channel 🎑
-<a href="https://t.me/Crazy_people345"><img src="https://img.shields.io/badge/Join-Group%20Random-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/curhatanmassa"><img src="https://img.shields.io/badge/Join%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+# hmm
